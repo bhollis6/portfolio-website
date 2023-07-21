@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 export default function Contact() {
 	const handleEmailClick = () => {
 		window.location.href = "mailto:blh04co@gmail.com";

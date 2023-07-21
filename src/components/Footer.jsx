@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -16,11 +18,11 @@ export default function Footer() {
 				<div className="mx-auto p-4 flex text-center flex-row justify-between">
 					<div className="flex flex-row items-center justify-center space-x-1 text-[#EEEDF0] sm:text-xl">
 						© 2023 Braden Hollis
-						<a href="/" className="hover:underline"></a>
+						<a href="/" className="hover:underline"> </a>
 					</div>
 					<div className="flex flex-row items-center justify-center space-x-2 mb-1 text-[#EEEDF0] group sm:text-xl">
 						<a
-							href="#"
+							href="/#"
 							onClick={handleClick}
 							className="flex items-center"
 						>

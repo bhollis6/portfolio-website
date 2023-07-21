@@ -46,8 +46,8 @@ export default function Project() {
 							className={project.class}
 						>
 							{/* Hover */}
-							<div className="opacity-0 group-hover:opacity-100">
-								<span className="text-4xl font-bold text-[#EEEDF0] tracking-wider">
+							<div className="opacity-0 group-hover:opacity-100 flex flex-col">
+								<span className="text-4xl font-bold text-[#EEEDF0] tracking-wider text-center">
 									{project.title}
 								</span>
 								<div className="pt-8 text-center">

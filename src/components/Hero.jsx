@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { FiExternalLink } from "react-icons/fi";
 import * as Scroll from "react-scroll";

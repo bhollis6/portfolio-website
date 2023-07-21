@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Helmet } from "react-helmet";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<div className="bg-[#17181f] text-[#EEEDF0] font-sans">
+			<Helmet>
+				<title>Portfolio Website</title>
+				<meta
+					name="description"
+					content="Braden Hollis's portfolio website"
+				/>
+			</Helmet>
+			<Header />
+			<Hero />
+			<About />
+			<Project />
+			<Skills />
+			<Contact />
+			<Footer />
+		</div>
+	);
 }
-
-export default App;

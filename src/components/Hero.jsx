@@ -36,7 +36,7 @@ export default function Hero() {
 					</a>
 				</p>
 
-				<div className="flex space-x-4 mb-10 sm:mb-0">
+				<div className="flex space-x-4 mb-10 sm:mb-0 whitespace-nowrap">
 					<button
 						onClick={() =>
 							Scroll.scroller.scrollTo("project", {

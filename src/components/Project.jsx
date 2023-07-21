@@ -7,18 +7,21 @@ export default function Project() {
 			title: "ChatGPT Clone",
 			demoLink: "https://posing-clinic.netlify.app",
 			codeLink: "https://github.com/bhollis6/posing-clinic",
+			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-1",
 		},
 		{
 			image: portfolio_website_project,
 			title: "Portfolio Website",
 			demoLink: ".",
-			codeLink: "https://github.com/bhollis6/posing-clinic",
+			codeLink: "https://github.com/bhollis6/portfolio-website",
+			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-2",
 		},
 		{
 			image: npcProject,
 			title: "NPC Posing Clinic",
 			demoLink: "https://posing-clinic.netlify.app",
 			codeLink: "https://github.com/bhollis6/posing-clinic",
+			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-3",
 		},
 	];
 
@@ -40,7 +43,7 @@ export default function Project() {
 						<div
 							key={index}
 							style={{ backgroundImage: `url(${project.image})` }}
-							className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+							className={project.class}
 						>
 							{/* Hover */}
 							<div className="opacity-0 group-hover:opacity-100">

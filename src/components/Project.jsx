@@ -1,16 +1,17 @@
 import npcProject from "../assets/projects/npc_project.jpg";
-import portfolio_website_project from "../assets/projects/portfolio_website_project.JPG";
+import chatGPTProject from "../assets/projects/chatGPT2.jpg";
+import portfolioWebsiteProject from "../assets/projects/portfolio_website_project.JPG";
 export default function Project() {
 	const projects = [
 		{
-			image: npcProject,
+			image: chatGPTProject,
 			title: "ChatGPT Clone",
 			demoLink: "https://posing-clinic.netlify.app",
 			codeLink: "https://github.com/bhollis6/posing-clinic",
 			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-1",
 		},
 		{
-			image: portfolio_website_project,
+			image: portfolioWebsiteProject,
 			title: "Portfolio Website",
 			demoLink: ".",
 			codeLink: "https://github.com/bhollis6/portfolio-website",

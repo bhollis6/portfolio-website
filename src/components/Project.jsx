@@ -6,8 +6,8 @@ export default function Project() {
 		{
 			image: chatGPTProject,
 			title: "ChatGPT Clone",
-			demoLink: "https://posing-clinic.netlify.app",
-			codeLink: "https://github.com/bhollis6/posing-clinic",
+			demoLink: "https://chatgpt-clone6.netlify.app/",
+			codeLink: "https://github.com/bhollis6/chatgpt-clone",
 			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-1",
 		},
 		{

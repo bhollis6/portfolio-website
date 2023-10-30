@@ -1,4 +1,4 @@
-import npcProject from "../assets/projects/npc_project.jpg";
+import tdpLanding from "../assets/projects/tdp_landing.JPG";
 import chatGPTProject from "../assets/projects/chatGPT2.jpg";
 import portfolioWebsiteProject from "../assets/projects/portfolio_website_project.JPG";
 export default function Project() {
@@ -18,10 +18,10 @@ export default function Project() {
 			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-2",
 		},
 		{
-			image: npcProject,
-			title: "NPC Posing Clinic",
-			demoLink: "https://posing-clinic.netlify.app",
-			codeLink: "https://github.com/bhollis6/posing-clinic",
+			image: tdpLanding,
+			title: "TDP Landing Page",
+			demoLink: "https://thedeltaprinciple.org/",
+			codeLink: "https://github.com/bhollis6/tdp-landing-reactapp",
 			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-3",
 		},
 	];

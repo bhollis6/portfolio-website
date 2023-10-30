@@ -17,9 +17,13 @@ export default function About() {
 						<p>
 							I'm a sophomore at Colorado State University
 							studying computer science with a minor in
-							mathematics. I'm proud to serve as vice president of
-							the Association of Computing Machinery and treasurer
-							of the Honors Community Service Club.
+							mathematics. Right now, I am a technology intern for {" "}
+							<a
+						className="text-[#6c72cb] underline cursor-pointer" href="https://www.thedeltaprinciple.com/" target="blank"
+					>
+						The Delta Principle
+					</a> and serve as vice
+							president of the Association of Computing Machinery.
 						</p>
 
 						<p className="text-[#8892b0] pt-[5%] sm:pt-[8%] sm:pb-0 pb-[7%]">

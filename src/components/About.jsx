@@ -17,13 +17,13 @@ export default function About() {
 						<p>
 							I'm a sophomore at Colorado State University
 							studying computer science with a minor in
-							mathematics. Right now, I am a technology intern for {" "}
+							mathematics. I'm a future IT Data Analyst Intern for {" "}
 							<a
-						className="text-[#6c72cb] underline cursor-pointer" href="https://www.thedeltaprinciple.com/" target="blank"
+						className="text-[#6c72cb] underline cursor-pointer" href="https://www.trinidadbenham.com/" target="blank"
 					>
-						The Delta Principle
-					</a> and serve as vice
-							president of the Association of Computing Machinery.
+						Trinidad Benham
+					</a>. Currently, I serve as the vice
+							president of the Association of Computing Machinery and philanthropy chair for Sigma Phi Epsilon.
 						</p>
 
 						<p className="text-[#8892b0] pt-[5%] sm:pt-[8%] sm:pb-0 pb-[7%]">

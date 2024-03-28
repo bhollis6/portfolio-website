@@ -17,13 +17,14 @@ export default function About() {
 						<p>
 							I'm a sophomore at Colorado State University
 							studying computer science with a minor in
-							mathematics. I'm a future IT Data Analyst Intern for {" "}
+							mathematics. Currently, I serve as the vice
+							president of the Association of Computing Machinery and philanthropy chair for Sigma Phi Epsilon.
+                            Also, I'm a future IT Data Analyst Intern for {" "}
 							<a
 						className="text-[#6c72cb] underline cursor-pointer" href="https://www.trinidadbenham.com/" target="blank"
 					>
 						Trinidad Benham
-					</a>. Currently, I serve as the vice
-							president of the Association of Computing Machinery and philanthropy chair for Sigma Phi Epsilon.
+					</a>. 
 						</p>
 
 						<p className="text-[#8892b0] pt-[5%] sm:pt-[8%] sm:pb-0 pb-[7%]">

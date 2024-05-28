@@ -15,12 +15,10 @@ export default function About() {
 				<div className="gap-8 grid max-w-[85%] sm:grid-cols-5 w-full">
 					<div className="col-span-2 pl-0 sm:pl-8 sm:text-3xl text-left text-xl">
 						<p>
-							I'm a sophomore at Colorado State University
+							I'm a junior at Colorado State University
 							studying computer science with a minor in
-							mathematics. Currently, I serve as the vice
-							president of the Association for Computing Machinery
-							and philanthropy chair for Sigma Phi Epsilon. Also,
-							I'm a future IT Data Analyst Intern for{" "}
+							mathematics. This summer, I'm an IT Data Analyst
+							Intern for{" "}
 							<a
 								className="text-[#6c72cb] underline cursor-pointer"
 								href="https://www.trinidadbenham.com/"
@@ -28,7 +26,9 @@ export default function About() {
 							>
 								Trinidad Benham
 							</a>
-							.
+							. I serve as president of the Association for
+							Computing Machinery and philanthropy chair for Sigma
+							Phi Epsilon at CSU!
 						</p>
 
 						<p className="text-[#8892b0] pt-[5%] sm:pt-[8%] sm:pb-0 pb-[7%]">

@@ -53,7 +53,7 @@ export default function Hero() {
 					</button>
 
 					<a
-						href="https://docs.google.com/document/d/1GbEWqppErtS4m00ZF7PV4ciczM6wb65epglCTJNzxwc/edit?usp=sharing"
+						href="https://drive.google.com/file/d/1FhocBP3MQbjmyuKrcRACU8JhsY8er4DK/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

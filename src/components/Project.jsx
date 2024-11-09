@@ -20,7 +20,7 @@ export default function Project() {
 		{
 			image: tdpLanding,
 			title: "TDP Landing Page",
-			demoLink: "https://thedeltaprinciple.org/",
+			demoLink: "https://tdplanding.netlify.app/",
 			codeLink: "https://github.com/bhollis6/tdp-landing-reactapp",
 			class: "shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div-3",
 		},
